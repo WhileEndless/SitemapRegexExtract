@@ -21,7 +21,7 @@ To get started with the Sitemap Regex Extractor:
 
 ## Example Usage
 
-Suppose you want to extract all unique session IDs from the responses in your sitemap that follow a specific pattern (e.g., `sessionId=([a-zA-Z0-9]{32})`). Simply enter this regex into the extension, and it will iterate over the sitemap entries, extracting and displaying unique matches.
+Suppose you want to extract all unique session IDs from the responses in your sitemap that follow a specific pattern (e.g., `\$\.ajax\(\{((\r)?)((\n)?)[ |\t]+type:(( )?)["|']\w+["|'],((\r)?)((\n)?)[ |\t]+url:(( )?)['|"](.*?)['|"],`). Simply enter this regex into the extension, and it will iterate over the sitemap entries, extracting and displaying unique matches.
 
 ## Contributing
 
